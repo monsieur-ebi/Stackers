@@ -1,0 +1,21 @@
+{
+  "homepage": "https://taridekpen.github.io/",
+  "name": "stackers",
+  "version": "1.0.0",
+  "description": "Stackers DAO website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "Stackers",
+    "DAO",
+    "website"
+  ],
+  "author": "IncryptoEncrypted",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
