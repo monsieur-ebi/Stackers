@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 body {
-    background-image: url("/home/high-hack/Documents/stackers/src/images/bg-tablet-pattern.svg");
-    background-repeat: no-repeat;
+    /* background-image: url("/home/high-hack/Documents/stackers/src/images/bg-tablet-pattern.svg"); */
+    /* background-repeat: no-repeat;
     background-size: 800px;
-    background-position:90% -25%;
+    background-position:90% -25%; */
+    
 }
 
 #cta {
-    background-image: url('/home/high-hack/Documents/stackers/src/images/bg-simplify-section-desktop.svg');
+    /* background-image: url('/home/high-hack/Documents/stackers/src/images/bg-simplify-section-desktop.svg'); */
     background-repeat: no-repeat;
   }
 

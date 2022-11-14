@@ -1,6 +1,6 @@
 import './styles/main.css';
 import Navbar from './components/Navbar';
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Team from './components/Team';
@@ -11,15 +11,22 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<></>} />
-        <Route path="about" element={<></>} />
+        <Route path="/" element={
+          <>
+          <Navbar />
+          <Hero />
+          <Features />
+          <Team />
+          <Cta />
+          <Footer />
+          </>
+        } />
+        <Route path="/about" element={<></>} />
+        <Route path="/events" element={<>
+          <Navbar />
+        </>} />
       </Routes>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Team />
-      <Cta />
-      <Footer />
+      
     </div>
   );
 }

@@ -1,6 +1,5 @@
 {
   "name": "stackers",
-  "homepage": "https://stackerspool.github.io/Stackers/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
